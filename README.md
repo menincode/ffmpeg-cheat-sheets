@@ -1,4 +1,4 @@
-## Video Editor
+## 1. Edit video
 
 ### Cut video
 
@@ -246,3 +246,5 @@ ffmpeg -i v.mp4 -i a.wav -c:v copy -map 0:v:0 -map 1:a:0 new.mp4
 
 `-map 0:v:0` maps the first (index 0) video stream from the input to the first (index 0) video stream in the output.
 `-map 1:a:0` maps the second (index 1) audio stream from the input to the first (index 0) audio stream in the output.
+
+## 2. Edit image
